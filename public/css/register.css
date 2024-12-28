@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+
+.Login {
+	background-color: #089da1;
+	width: 300px;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+
+}
+
+.Login h2{
+	margin: 0 0 20px;
+	width: 100%;
+	margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.checkbox {
+    font-size: 11px;
+    text-decoration: none;
+    color: #ffffff;
+    font-style: sans-serif;
+
+}
+
+.Login .input-group{
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+ 
+.Login .input-group input{
+    height: 50px;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 3px solid white;
+    border-radius: 10px;
+    border: 3px solid #929497;
+}
+
+.Login .input-group span{
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    padding: 2px;
+    text-transform: capitalize;
+    background-color: #fff;
+    transition: 0.5;
+    
+}
+
+.Login .input-group input:focus ~ span,
+.Login .input-group input:valid ~ span{
+    top:-12px;
+    left: 20px;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 2px 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+} 
+
+.Login .input-group [type="submit"]{
+    position: relative;
+    width: 100%;
+    margin-right: 16px;
+}
+
+.Login .input-group [type="submit"]{
+    height: 50px;
+    width: 45%;
+    padding: 10 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 15px;
+    border: 10px ;
+    border-radius: 10px;
+}
+
+.Login .input-group [type="button"]{
+    height: 50px;
+    width: 45%;
+    padding: 10 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 15px;
+    border: 10px ;
+    border-radius: 10px;
+}
+
+.Login .group input[type="submit"]{
+    width: 100%;
+    background-color: #fff; 
+    color: #fff;
+}
+
+.Login .group input[type="button"]{
+    width: 100%;
+    background-color: #fff;;
+    color: #ffffff;
+}

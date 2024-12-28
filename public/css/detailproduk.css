@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.image {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    margin-top: 20px;
+    margin-left: 240px;
+}
+
+.input input {
+    display: block;
+    flex-direction: row;
+    margin-top: 8px;
+    border-radius: 5px
+}
+
+.nama-produk {
+    padding: 10px 120px 10px 0px;
+}
+
+.text {
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}  
+
+
+
+.harga1 {
+    background-color: white;
+}
+
+.button {
+    margin-top: 30px;
+    margin-right: 35px;
+    display: flex;
+    justify-content: end;
+}
+
+.button button {
+    padding: 10px 70px;
+    border: none;
+    background-color: rgb(108, 191, 247);
+}
